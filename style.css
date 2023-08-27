@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Assistant', sans-serif;
+}
+body{
+    background: whitesmoke;  
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+#loader{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(240, 234, 234, 0);
+}
+#loader img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#imageContainer{
+    margin: 10px 30%;   
+}
+#imageContainer img{
+    width: 100%;
+    margin-top: 5px;
+
+}
+@media screen and (max-width:600px){
+    h1{
+        font-size: 20px;
+    }
+    #imageContainer {
+        margin: 10px;
+}
+}
+    
